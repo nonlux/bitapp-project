@@ -10,6 +10,22 @@
     ],
     "minimum-stability": "dev",
     "require": {
-
+       "nonlux/bitapp":"dev-master"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "bitrix/bitrixcms-standard",
+                "version": "dev-master",
+                "dist": {
+                    "url" : "http://www.1c-bitrix.ru/download/standard_encode_php5.tar.gz",
+                    "type": "tar"
+                }
+            }
+        }
+    ],
+    "suggest": {
+        "bitrix/bitrixcms-standard": "1C-Битрикс: Управление сайтом"
     }
 }

@@ -1,0 +1,225 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a288b0de11d47497c7909d564cefaefd",
+    "packages": [
+        {
+            "name": "nonlux/bitapp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nonlux/bitapp.git",
+                "reference": "ec5b70c9cfaa88aa9b976b8ce3e75eeaabc3a58a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nonlux/bitapp/zipball/ec5b70c9cfaa88aa9b976b8ce3e75eeaabc3a58a",
+                "reference": "ec5b70c9cfaa88aa9b976b8ce3e75eeaabc3a58a",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/console": "2.4.*",
+                "symfony/filesystem": "2.4.*",
+                "symfony/finder": "2.4.*"
+            },
+            "require-dev": {
+                "behat/behat": "2.*",
+                "bitrix/bitrixcms-standard": "dev-master",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "bitrix/bitrixcms-standard": "1C-Битрикс: Управление сайтом"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "nonlux",
+                    "email": "nonluxi@gmail.com"
+                }
+            ],
+            "description": "Bitrix development tool",
+            "time": "2014-07-06 15:54:07"
+        },
+        {
+            "name": "symfony/console",
+            "version": "2.4.x-dev",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console.git",
+                "reference": "a5d3e9299980f6e0e1f98a17621109ab31603d91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/a5d3e9299980f6e0e1f98a17621109ab31603d91",
+                "reference": "a5d3e9299980f6e0e1f98a17621109ab31603d91",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/event-dispatcher": "~2.1"
+            },
+            "suggest": {
+                "symfony/event-dispatcher": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-06-20 17:36:47"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "2.4.x-dev",
+            "target-dir": "Symfony/Component/Filesystem",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Filesystem.git",
+                "reference": "11d6101a409ef47996d7f28ea3debb6f4dec16ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/11d6101a409ef47996d7f28ea3debb6f4dec16ab",
+                "reference": "11d6101a409ef47996d7f28ea3debb6f4dec16ab",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-06-20 17:37:57"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "2.4.x-dev",
+            "target-dir": "Symfony/Component/Finder",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Finder.git",
+                "reference": "50a126d0623d4b5aa11269cbea9874ee0b0e67eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/50a126d0623d4b5aa11269cbea9874ee0b0e67eb",
+                "reference": "50a126d0623d4b5aa11269cbea9874ee0b0e67eb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Finder\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Finder Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-06-20 17:36:47"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "nonlux/bitapp": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
