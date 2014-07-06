@@ -10,7 +10,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-       "nonlux/bitapp":"dev-master"
+       "nonlux/bitapp":"dev-master",
+        "bitrix/bitrixcms-standard":"dev-master"
     },
     "repositories": [
         {
