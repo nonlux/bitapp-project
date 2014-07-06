@@ -1,0 +1,15 @@
+{
+    "name": "nonlux/bitapp-project",
+    "description": "Development project for bitapp and bitrix",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nonlux",
+            "email": "nonluxi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    }
+}
